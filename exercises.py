@@ -10,7 +10,7 @@ def check_letter():
     else:
         print("What you have entered is not a letter")
 
-#check_letter()
+check_letter()
 
 
 # Exercise 2: Old enough to vote?
@@ -23,7 +23,7 @@ def check_voting_eligibility():
     elif age < 18:
         print("You are NOT eligible to vote")
 
-#check_voting_eligibility()
+check_voting_eligibility()
 
 
 # Exercise 3: Calculate Dog Years
@@ -41,7 +41,7 @@ def calculate_dog_years():
         dog_age= 20+ ((age - 2)*7)
         print(f"The dog's age in dog years is {dog_age}.")
 
-#calculate_dog_years()
+calculate_dog_years()
 
 
 # Exercise 4: Weather Advice
@@ -65,7 +65,7 @@ def weather_advice():
     else:
         print("Invalid input. Only enter 'yes' or 'no'.")
 
-#weather_advice()
+weather_advice()
 
 
 # Exercise 5: Fizz Buzz
@@ -83,7 +83,7 @@ def fizz_buzz():
             print(num)
         num+= 1
 
-#fizz_buzz()
+fizz_buzz()
 
 
 #Level Up: Control Flow Lab Exercise
@@ -111,7 +111,7 @@ def guess_number():
         if i == 4 and num != num_to_guess:
             print("Sorry, you failed to guess the number in five attempts.")
         
-#guess_number()
+guess_number()
 
 # Exercise 7: What's the Season?
 
